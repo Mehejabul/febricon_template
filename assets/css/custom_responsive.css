@@ -1,0 +1,110 @@
+@media (min-width: 576px) { 
+
+   .quests_write h3{
+ 
+  font-size: 15px;
+    
+}
+
+    .quests_write p{
+  margin-top: 30px;
+  text-align: justify;
+}
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 576px) {
+  .top_text h3 {
+    padding-top: 5px;
+    font-size: 15px;
+  }
+ 
+}
+  .top_text p {
+    font-size: 10px;
+    padding-bottom: 0px;
+  }
+
+  .slider_icon_left {
+    font-size: 18px;
+    padding-right: 5px;
+
+  }
+
+  .slider_icon_right {
+    font-size: 15px;
+    position: absolute;
+    padding-left: 5px;
+  }
+
+  .quets_part p {
+    font-size: 8px;
+  }
+
+  .client_name h3::after {
+
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -25%);
+  }
+
+  .thumb {
+    margin-left: 100px;
+  }
+
+  .slick-prev.slick-arrow {
+    margin-left: 15px;
+
+  }
+
+  /* custom testimonial  responsive end */
+
+
+  /* quets section start */
+  /* .quests_write p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .quests_write h3::before {
+
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -25%);
+  }
+
+  .quets_image p {
+    font-size: 15px; */
+   
