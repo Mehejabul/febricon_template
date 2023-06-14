@@ -32533,11 +32533,11 @@ input[type=email]:focus::-webkit-input-placeholder {
   content: " ";
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 35%;
   background: #ff9191;
   height: 3px;
-  width: 130px;
-  transform: translate(-50%, -50%);
+  width: 50px;
+  transform: translate(-50%, -35%);
 }
 
 .quests_write p{
@@ -32624,18 +32624,23 @@ input[type=email]:focus::-webkit-input-placeholder {
 }
 
 .quests_ownwer{
-    position: relative;
 }
 
-.quests_ownwer h3::before {
-    content: " ";
-    position: absolute;
-    width: 90px;
-    height: 3px;
-    background: #ff9191;
-    left: 30%;
-    bottom: 50%;
-    transform: translate(-30%, -50%);
+.client_name h3{
+  position: relative;
+    font-weight: bold;
+    color: #3474d4;
+}
+
+.client_name h3::after{
+  position: absolute;
+  content: " ";
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -35%);
+  width: 50px;
+  height: 3px;
+  background: #ff9191;
 }
 
 .quests_ownwer h3{
