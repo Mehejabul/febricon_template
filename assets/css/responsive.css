@@ -2621,6 +2621,53 @@
   .ec-page-detail .ec-cat-bnr a span {
     height: 180px;
   }
+
+/* custom testimonial responsive */
+.top_text h3{
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.top_text p{
+  font-size: 10px;
+  padding-bottom: 0px;
+}
+
+.slider_icon_left{
+    font-size: 18px;
+    padding-right: 5px;
+
+}
+.slider_icon_right{
+    font-size: 15px;
+     position: absolute;
+      padding-left: 5px;
+}
+
+.quets_part p{
+    font-size: 10px;
+}
+
+.quests_ownwer h3::before {
+    width: 50px;
+    left: 30%;
+
+}
+.quests_ownwer h3{
+   font-size: 20px;
+}
+
+.thumb{
+  margin-left: 150px;
+}
+
+.slick-prev.slick-arrow {
+  margin-left: 15px;
+
+}
+
+
+
 }
 @media only screen and (max-width: 375px) {
   .ec-banner-block-1 .banner-block .banner-text {
@@ -2665,6 +2712,7 @@
 .quests_ownwer h3::before {
     width: 50px;
     left: 20%;
+    transform: translate(-50%, -20%);
 
 }
 .quests_ownwer h3{
@@ -2672,7 +2720,7 @@
 }
 
 .thumb{
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
 .slick-prev.slick-arrow {
