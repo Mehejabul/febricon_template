@@ -32516,6 +32516,13 @@ input[type=email]:focus::-webkit-input-placeholder {
 }
 /*# sourceMappingURL=style.css.map */
 
+
+/* ================================== 
+      -----   Custom css ------
+ ============================== */
+
+
+
 /* custom quets css start*/
 .quets{
   background: #f9f9f9;
@@ -32527,6 +32534,10 @@ input[type=email]:focus::-webkit-input-placeholder {
   font-weight: bold;
   font-size: 30px;
     
+}
+
+.quests_write{
+  margin-top: 120px;
 }
 
 .quests_write h3::before{
@@ -32557,12 +32568,7 @@ input[type=email]:focus::-webkit-input-placeholder {
   border: 5px solid #3474d4;
 }
 
-/* .semicolon{
-  color: #ff9191;
-  padding: 10px;
-  font-size: 30px;
-  font-weight: bold;
-} */
+
 
 .quets_image p{
   color: #495570;
@@ -32570,15 +32576,20 @@ input[type=email]:focus::-webkit-input-placeholder {
   font-weight: 800;
 }
 
-
 /* custom quets css end */
+
+
 
 
 
 /* custom testimonial start */
 .testimonial{
-  background: #f9f9f9f9;
+  
   margin: 30px 0px;
+}
+
+.slider{
+background: #f9f9f9f9;
 }
 
 .top_text h3{
@@ -32592,12 +32603,7 @@ input[type=email]:focus::-webkit-input-placeholder {
   font-size: 20px;
   padding-bottom: 10px;
 }
-/* .slider{
-    margin: 30px 0px;
-} */
-/* .quets_part{
-    text-align: center;
-} */
+
 .slider_icon_left{
     font-size: 40px;
     font-weight: bold;
@@ -32614,6 +32620,13 @@ input[type=email]:focus::-webkit-input-placeholder {
     position: absolute;
     color: #ff9191;
    
+}
+
+.slider_part{
+  /* position: relative; */
+}
+.quets_part{
+ margin-top: 100px;
 }
 
 .quets_part p{
@@ -32648,24 +32661,21 @@ input[type=email]:focus::-webkit-input-placeholder {
     color: #3474d4;
 }
 .thumb{
-  margin-left: 100px;
 }
 
 .thumb img{
-    width: 150px;
+    /* width: 150px;
         height: 200px;
         border-width: 5px;
         border-color: green;
-        border: #3474d4 5px solid;
+        border: #3474d4 5px solid; */
 }
 
 .slick-prev.slick-arrow {
     position: absolute;
     top: 50%;
-    left: 0%;
-    /* transition: translate(-50%, -60%); */
-    /* transform: translate(-50%, -70%); */
-    transform: translate(-50%, -50%);
+    left: -7%;
+    transform: translate(-50%, 7%);
     z-index: 9999;
     height: 20px;
     padding: 20px 10px;
@@ -32675,9 +32685,9 @@ input[type=email]:focus::-webkit-input-placeholder {
 }
 .slick-next.slick-arrow {
     position: absolute;
-    bottom: 48%;
-    right: 0%;
-    transform: translate(-50%, -0%);
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, 10%);
     z-index: 99999;
     height: 20px;
     padding: 20px 10px;
@@ -32685,3 +32695,100 @@ input[type=email]:focus::-webkit-input-placeholder {
     color: white;
 }
 /* custom testimonial End */
+
+
+/* our awesome employee */
+ .ec-employee-item  .employe_name{
+  color: #3474d4;
+  font-size: 30px;
+  font-weight: bold;
+ }
+
+ .ec-employee-item  .employe_title{
+  color:#ff9191;
+  font-size: 15px;
+  font-weight: bold;
+ }
+
+.ec-insta-inner_employee a {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  display: block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.ec-insta-inner_employee a:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #3474d4;
+  z-index: 2;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.ec-insta-inner_employee a:before {
+  content: "View details";
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px 15px;
+  background: #ff9191;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  z-index: 3;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+  visibility: hidden;
+  line-height: 1;
+}
+.ec-insta-inner_employee a:hover:after {
+  opacity: 0.8;
+}
+.ec-insta-inner_employee a:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+.ec-insta-inner_employee img {
+  max-width: 100%;
+}
+
+
+
+
+/* Employee_page */
+.ec-employee-content{
+  margin: 20px 0px;
+}
+.ec-employee-content .employe_name{
+  color: #3474d4;
+  font-size: 40px;
+  font-weight: bold;
+}
+.ec-employee-content .employe_title{
+   color:#ff9191;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+ .ec-employee-content .employe_details{
+  font-size: 15px;
+  text-align: justify;
+  line-height: 2;
+ }
+
+/* Employee_page */
+
+
+/* ================================== 
+      -----   Custom css ------
+ ============================== */
