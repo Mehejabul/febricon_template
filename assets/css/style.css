@@ -29500,7 +29500,7 @@ input[type=email]:focus::-webkit-input-placeholder {
 }
 .ec-full-blog .ec-card-bg .bg-img-1 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/blog-image/14.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/14.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/gallery_gift_4.jpg);
   background-position: center;
 }
 .ec-full-blog .ec-card-bg .bg-img-2 {
@@ -30019,18 +30019,29 @@ input[type=email]:focus::-webkit-input-placeholder {
           transform: translateY(0);
 }
 .ec-box-card .ec-wrapper.wrp-img-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/blog-image/11.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/11.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/blog-image/gallery_gift_4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/gallery_gift_4.jpg);
   background-position: center;
 }
 .ec-box-card .ec-wrapper.wrp-img-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/blog-image/12.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/12.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/blog-image/gallery_3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/gallery_3.jpg);
   background-position: center;
 }
 .ec-box-card .ec-wrapper.wrp-img-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/blog-image/13.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/13.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/blog-image/gallery_gift_2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/gallery_gift_2.jpg);
+  background-position: center;
+}
+.ec-box-card .ec-wrapper.wrp-img-4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/blog-image/gallery_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/gallery_1.jpg);
+  background-position: center;
+}
+
+.ec-box-card .ec-wrapper.wrp-img-5 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/blog-image/gallery_2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/gallery_2.jpg);
   background-position: center;
 }
 
