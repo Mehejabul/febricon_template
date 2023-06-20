@@ -1608,7 +1608,16 @@ function ecCheckCookie()
         swipe: true,
         arrows: true,
     });
+// custom testimonal js end
 
+
+// our new arival custom
+$('.single_slide').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2500,
+});
 
 
 })(jQuery);
