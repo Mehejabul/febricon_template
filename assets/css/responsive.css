@@ -3328,27 +3328,30 @@
     padding-left: 5px;
   }
 
+  .quets_part {
+    margin-top: 20px;
+  }
+
   .quets_part p {
     font-size: 8px;
   }
 
-  .client_name h3::after {
+  .thumb {
+    margin: 20px;
+  }
 
+  .thumb img {
+    width: 100%;
+  }
+
+  .client_name h3::after {
     top: 50%;
     left: 25%;
     transform: translate(-50%, -25%);
   }
 
-  .thumb {
-    margin-left: 50px;
-  }
-
-  .slick-prev.slick-arrow {
-    margin-left: 15px;
-
-  }
-
   /* custom testimonial  responsive end */
+
 
 
   /* quets section start */
@@ -3357,13 +3360,15 @@
     font-size: 18px;
   }
 
-  .quests_write h3::before {
+  .quests_write h3 {
+    font-size: 15px;
+  }
 
+  .quests_write h3::before {
     top: 50%;
     left: 25%;
     transform: translate(-50%, -25%);
   }
-
   .quets_image p {
     font-size: 15px;
   }
@@ -3406,7 +3411,7 @@
     height: 180px;
   }
 
-   /* custom testimonial responsive */
+  /* custom testimonial responsive */
   .top_text h3 {
     padding-top: 5px;
     font-size: 15px;
@@ -3429,28 +3434,29 @@
     padding-left: 5px;
   }
 
+  .quets_part {
+    margin-top: 20px;
+  }
+
   .quets_part p {
     font-size: 8px;
   }
 
-  .client_name h3::after {
+  .thumb {
+    margin: 20px;
+  }
 
+  .thumb img {
+    width: 100%;
+  }
+
+  .client_name h3::after {
     top: 50%;
     left: 25%;
     transform: translate(-50%, -25%);
   }
 
-  .thumb {
-    margin-left: 100px;
-  }
-
-  .slick-prev.slick-arrow {
-    margin-left: 15px;
-
-  }
-
   /* custom testimonial  responsive end */
-
 
   /* quets section start */
   .quests_write p {
@@ -3458,18 +3464,18 @@
     font-size: 18px;
   }
 
-  .quests_write h3::before {
+  .quests_write h3 {
+    font-size: 15px;
+  }
 
+  .quests_write h3::before {
     top: 50%;
     left: 25%;
     transform: translate(-50%, -25%);
   }
-
   .quets_image p {
     font-size: 15px;
   }
-
-
 
 }
 
@@ -3514,25 +3520,24 @@
     padding-left: 5px;
   }
 
-
- .quets_part{
- margin-top: 20px;
-}
+  .quets_part {
+    margin-top: 20px;
+  }
 
   .quets_part p {
     font-size: 8px;
   }
 
-  .thumb{
-     margin: 20px;
+  .thumb {
+    margin: 20px;
   }
 
-  .thumb img{
+  .thumb img {
     width: 100%;
+    margin-left: -20px;
   }
 
   .client_name h3::after {
-
     top: 50%;
     left: 25%;
     transform: translate(-50%, -25%);
@@ -3541,23 +3546,22 @@
   /* custom testimonial  responsive end */
 
 
+
   /* quets section start */
   .quests_write p {
     margin-top: 20px;
     font-size: 18px;
   }
 
-   .quests_write h3{
+  .quests_write h3 {
     font-size: 15px;
-   }
+  }
 
   .quests_write h3::before {
-
     top: 50%;
     left: 25%;
     transform: translate(-50%, -25%);
   }
-
   .quets_image p {
     font-size: 15px;
   }
