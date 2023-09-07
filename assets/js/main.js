@@ -1621,7 +1621,7 @@ function ecCheckCookie() {
     $('.slider').slick({
         dots: false,
         speed: 1000,
-        autoplay: true,
+        autoplay: false,
         swipe: true,
         arrows: true,
     });
@@ -1633,6 +1633,7 @@ function ecCheckCookie() {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
+        arrows: false,
         autoplaySpeed: 2000,
         responsive: [{
                 breakpoint: 768,
@@ -1641,15 +1642,28 @@ function ecCheckCookie() {
                     slidesToScroll: 1,
                     autoplay: true,
                     autoplaySpeed: 2000,
+                   arrows: false,
+
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                     arrows: false,
+                }
+            },
+              {
+                breakpoint: 325,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     autoplay: true,
                     autoplaySpeed: 2000,
+                     arrows: false,
                 }
             }
         ]
